@@ -1,0 +1,45 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+body{
+    height: 100vh;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url('co\ \(2\).webp');
+    
+    }
+    .img{
+        display: block;
+        margin-bottom: auto;
+    }
+.one{
+    display:flex;
+    margin-left: 40%;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10%;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input{
+    margin: 5px;
+    height: 35px;
+    padding: 7px;
+}
+button{
+    height: 35px;
+    margin: 5px 0px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color:black;
+}
+button:hover{
+background-color: yellow;
+color: green;
+}  
